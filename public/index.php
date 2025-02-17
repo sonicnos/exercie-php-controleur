@@ -8,6 +8,10 @@ if (isset($_GET["p"])) {
     case "contact":
       include "../pages/contact.php";
       break;
+    case "livreOr":
+      include "../pages/livre-or.php";
+      break;
+    default:
   }
 } else {
   include "../pages/accueil.php";

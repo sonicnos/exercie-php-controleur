@@ -11,12 +11,12 @@
 
 <body>
   <nav class="nav-bar">
-    <a href="./?p=accueil">Accueil</a>
-    <a href="./?p=contact">Contact</a>
-    <a href="./?p=livreOr">livre or</a>
-    <a href="./?p=accueil">images</a>
+    <a href="./">Accueil</a>
+    <a href="?p=contact">Contact</a>
+    <a href="?p=accueil">livre or</a>
+    <a href="?p=accueil">images</a>
   </nav>
-  <p>Ceci est la page de contact</p>
+  <p>page </p>
   <footer class="footer">ceci est un merveilleux footer</footer>
 </body>
 
