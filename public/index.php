@@ -1,14 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-
-<body>
-  <p><?php echo "works"; ?></p>
-</body>
-
-</html>
+if (isset($_GET["p"])) {
+  switch ($_GET["p"]) {
+    case "accueil":
+      include "../pages/accueil.php";
+      break;
+    case "contact":
+      include "../pages/contact.php";
+      break;
+  }
+} else {
+  include "../pages/accueil.php";
+}
