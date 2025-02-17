@@ -13,8 +13,8 @@
   <nav class="nav-bar">
     <a href="./">Accueil</a>
     <a href="?p=contact">Contact</a>
-    <a href="?p=accueil">livre or</a>
-    <a href="?p=accueil">images</a>
+    <a href="?p=livreOr">livre or</a>
+    <a href="?p=images">images</a>
   </nav>
   <p>page </p>
   <footer class="footer">ceci est un merveilleux footer</footer>

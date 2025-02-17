@@ -11,6 +11,9 @@ if (isset($_GET["p"])) {
     case "livreOr":
       include "../pages/livre-or.php";
       break;
+    case "images":
+      include "../pages/images.php";
+      break;
     default:
   }
 } else {
